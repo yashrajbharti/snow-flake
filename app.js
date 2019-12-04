@@ -16,7 +16,7 @@ particlesJS('snow_fall',
   {
     "particles": {
       "number": {
-        "value": 800,
+        "value": 600,
         "density": {
           "enable": true,
           "value_area": 800
@@ -90,7 +90,7 @@ particlesJS('snow_fall',
         },
         "onclick": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "push"
         },
         "resize": true
       },
@@ -112,7 +112,7 @@ particlesJS('snow_fall',
           "distance": 200
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 50
         },
         "remove": {
           "particles_nb": 2
